@@ -91,7 +91,7 @@ const nodeTypes = {
     );
   
     // Handle node selection
-    const onNodeClick = useCallback((event: React.MouseEvent, node: Node) => {
+    const onNodeClick = useCallback((_: React.MouseEvent, node: Node) => {
       setSelectedNode(node);
     }, []);
   
